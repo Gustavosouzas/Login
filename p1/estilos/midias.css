@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+/*todas as demais mídias*/
+
+/*Typical device Breakpoints
+celular: 600 x 768px
+tablet: 768 x 992px
+dasktop: 992px x 1200px
+Grandes telas: 1200px
+*/
+
+@media screen and (min-width: 770px) and (max-width: 1110px) {
+    article#login{
+        margin-left: -71px;
+        float: left;
+    }
+    
+    article#login > h1{ 
+        font-size: 1.5em;
+    }
+
+    article#login > img{
+        height: 50vh;
+    }
+
+    article.form{
+        float: right;
+        width: 40vw;
+    }
+
+    article#login > img#pequena{
+        display: block;
+    }
+
+    article#login > img#grande{
+        display: none;
+    }
+
+    input{
+        width: 35vw;
+        height: 3.3vh;
+        border-radius: 20px;
+    }
+
+    article.form > form > input[type=submit] {
+        width: 35vw;
+        height: 3.3vh;
+        border-radius: 20px;
+    }
+
+}
+
+@media screen  and (min-width: 1110px) and (max-width: 1210px){
+    article#login{
+        margin-left: -150px;
+        float: left;
+    }
+
+    article#login > h1{ 
+        margin-top: -90px;
+        font-size: 1.8em;
+    }
+
+    article#login > img{
+        height: 47vh;
+    }
+
+    article.form{
+        float: right;
+        width: 47vw;
+    }
+
+    article#login > img#pequena{
+        display: none;
+    }
+
+    article#login > img#grande{
+        display: block;
+    }
+
+    input{
+        width: 37vw;
+        height: 3.4vh;
+        border-radius: 25px;
+    }
+
+    article.form > form > input[type=submit] {
+        width: 37vw;
+        height: 3.4vh;
+        border-radius: 25px;
+    }
+}
+
+@media screen  and (min-width: 1210px){
+
+    article#login{
+        margin-left: -150px;
+        float: left;
+    }
+
+    article#login > h1{ 
+        margin-top: -90px;
+        font-size: 1.8em;
+    }
+
+    article#login > img{
+        height: 60vh;
+    }
+
+    article.form{
+        float: right;
+        width: 550px;
+        margin-top: 10%;
+    }
+
+    article#login > img#pequena{
+        display: none;
+    }
+
+    article#login > img#grande{
+        display: block;
+    }
+
+    input{
+        width: 470px;
+        height: 3.4vh;
+        border-radius: 25px;
+    }
+
+    article.form > form > input[type=submit] {
+        width: 470px;
+        height: 3.4vh;
+        border-radius: 25px;
+    }
+
+}

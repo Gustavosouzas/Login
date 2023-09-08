@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/midias.css">
+</head>
+<body> 
+    <main>
+        <section>
+            <article id="login">
+                <h1>Faça login <br> E entre para o nosso time</h1>
+                <img src="img/astronaut-suit-animate.svg" alt="astronauta" id="pequena">
+                <img src="img/astronauta2.svg" alt="" id="grande">
+            </article>
+            <article class="form">
+                <h1>LOGIN</h1>
+                <form action="login.php" method="post" autocomplete="on">
+                    <p>
+                        <label for="iuser">Usuário</label>
+                        <input type="text" name="user" id="iuser" required maxlength="30" placeholder="Usuário">
+                    </p>
+
+                    <p>
+                        <label for="isenha">Senha</label>
+                        <input type="password" name="senha" id="isenha" required minlength="8" placeholder="Senha">
+                    </p>
+
+                    <input type="submit" value="L O G I N "> 
+                </form>
+             </article>
+         </section>
+    </main>      
+</body>
+</html>

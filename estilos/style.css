@@ -40,7 +40,7 @@ article#login > img#grande{
 article.form{
     background-color: #302546;
     width: 60vw;
-    height: 40vh;
+    height: 370px;
     text-align: center;
     border-radius: 15px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.329);
@@ -84,10 +84,11 @@ article.form > form > input[type=submit] {
     color: #141430;
     width: 50vw;
     height: 30px;
-    margin-top: 3vh;
+    margin-top: 2vh;
     border: none;
     box-shadow: 0px 1px 10px #02FEE0;
     border-radius: 15px;
+    margin-bottom: 10px;
     transition: .5s;
 }
 
